@@ -6,7 +6,7 @@ var numeroComputer = Math.ceil(Math.random() * 6);
 console.log( " Il tuo numero è" + " "+ numeroGiocatore);
 document.getElementById("tuonumero").innerHTML = "Il tuo numero è" + "  "+ numeroGiocatore;
 console.log(" Il numero del computer è " + " "+ numeroComputer);
-document.getElementById("numerocpu").innerHTML = "Il tuo numero è" + "  "+ numeroComputer;
+document.getElementById("numerocpu").innerHTML = "Il numero del computer è" + "  "+ numeroComputer;
 
 if(numeroGiocatore > numeroComputer){
     console.log("Hai vinto!! Il pianeta è salvo");
