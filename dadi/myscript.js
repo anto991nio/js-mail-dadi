@@ -1,7 +1,7 @@
 alert("Proteggi il pianeta terra, se il tuo numero sarà maggiore avrai vinto altrimenti le macchine prenderanno il controllo.");
 
-var numeroGiocatore = Math.ceil(Math.random() * 6).toFixed();
-var numeroComputer = Math.ceil(Math.random() * 6).toFixed();
+var numeroGiocatore = Math.ceil(Math.random() * 6);
+var numeroComputer = Math.ceil(Math.random() * 6);
 
 console.log( " Il tuo numero è" + " "+ numeroGiocatore);
 document.getElementById("tuonumero").innerHTML = "Il tuo numero è" + "  "+ numeroGiocatore;
